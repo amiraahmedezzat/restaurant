@@ -26,3 +26,4 @@ $_SESSION['alert_message'] = "Operation successful!";
 
 // Redirect to the previous page
 header("Location: " . $_SERVER['HTTP_REFERER']);
+exit();
